@@ -13,6 +13,7 @@ public class Solution {
             }
             if (count > max)
                 max = count;
+            // Updating the count value as max
         }
         return max;
     }
