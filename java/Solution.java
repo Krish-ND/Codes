@@ -22,5 +22,6 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(CharCount(str));
+        sc.close();
     }
 }
