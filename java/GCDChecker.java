@@ -19,5 +19,6 @@ class GCDChecker {
             res = gcd(res, arr[i]);
         }
         System.out.println(res);
+        sc.close();
     }
 }
