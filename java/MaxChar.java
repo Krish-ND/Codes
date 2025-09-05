@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class MaxChar {
 
     public static int CharCount(String str) {
         int len = str.length();
