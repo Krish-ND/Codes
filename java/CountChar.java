@@ -9,6 +9,7 @@ public class CountChar {
             arr[i] = sc.nextInt();
         }
         int x = sc.nextInt();
+        sc.close();
         int i;
         for (i = n; x < arr[i - 1]; i--) {
             arr[i] = arr[i - 1];
@@ -17,6 +18,5 @@ public class CountChar {
         for (i = 0; i <= n; i++) {
             System.out.print(arr[i] + " ");
         }
-        sc.close();
     }
 }
